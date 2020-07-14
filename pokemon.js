@@ -964,6 +964,7 @@ const pokemon = [
   ['necrozma-dawn', 'https://pokeapi.co/api/v2/pokemon/10156/'],
   ['necrozma-ultra', 'https://pokeapi.co/api/v2/pokemon/10157/']
 ]
-
+/* to get whole line*/ console.log(pokemon[0])
+/* to get array */ console.log(pokemon[0][1])
 
 module.exports = pokemon;
