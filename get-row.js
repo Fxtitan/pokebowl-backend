@@ -11,12 +11,12 @@ const getRow = (pokeDex) => {
   for (const poke of pokemon) {
     if(poke.includes(pokeDex)) {
       return poke
-    } if (!poke.includes(pokeDex)) {
-return null
-    }
+    } 
+    
   }
+  return null;
 };
-console.log(getRow('charmander'))
+// console.log(getRow('charmander'))
 
 
 
